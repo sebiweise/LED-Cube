@@ -419,8 +419,8 @@ void text(char string[], uint8_t len) {
 void lit() {
   if (loading) {
     clearCube();
-    for(uint8_t i=0; i<8; i++) {
-      for(uint8_t j=0; j<8; j++) {
+    for (uint8_t i = 0; i < 8; i++) {
+      for (uint8_t j = 0; j < 8; j++) {
         cube[i][j] = 0xFF;
       }
     }
